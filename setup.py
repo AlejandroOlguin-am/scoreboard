@@ -7,14 +7,14 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="robotics-scoring-system",
+    name="scoreboard",
     version="1.0.0",
     author="Alejandro Olguin",
     author_email="your.email@example.com",
     description="Sistema de puntuación automatizado para competencias de robótica usando visión por computadora",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/AlejandroOlguin-am/robotics-scoring-system",
+    url="https://github.com/AlejandroOlguin-am/scoreboard",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",

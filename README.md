@@ -37,8 +37,8 @@ Sigue estos pasos para configurar el entorno de desarrollo y ejecución:
 ### 1. Python (Visión)
 1.  Clonar el repositorio y moverse al directorio:
     ```bash
-    git clone [https://github.com/yourusername/robotics-scoring-system.git](https://github.com/yourusername/robotics-scoring-system.git)
-    cd robotics-scoring-system
+    git clone [https://github.com/yourusername/scoreboard.git](https://github.com/yourusername/scoreboard.git)
+    cd scoreboard
     ```
 2.  Crear y activar un entorno virtual:
     ```bash

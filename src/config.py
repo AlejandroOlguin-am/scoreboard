@@ -1,6 +1,6 @@
 """
 Configuration File
-Centralized configuration for the Robotics Scoring System
+Centralized configuration for the Scoreboard System.
 """
 
 # ==================== HARDWARE SETTINGS ====================
@@ -202,7 +202,7 @@ if DEBUG:
 if __name__ == "__main__":
     # Print configuration summary
     print("=" * 60)
-    print("ROBOTICS SCORING SYSTEM - CONFIGURATION")
+    print("SCOREBOARD - CONFIGURATION")
     print("=" * 60)
     print(f"\n📷 Camera: Index {CAMERA_INDEX} ({FRAME_WIDTH}x{FRAME_HEIGHT})")
     print(f"🔌 Serial: {SERIAL_PORT} @ {BAUDRATE} baud")

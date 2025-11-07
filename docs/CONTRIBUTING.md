@@ -10,8 +10,8 @@ Este proyecto y todos sus participantes están bajo el [Código de Conducta del 
 
 1. **Fork & Clone**
    ```bash
-   git clone https://github.com/TU_USERNAME/robotics-scoring-system.git
-   cd robotics-scoring-system
+   git clone https://github.com/TU_USERNAME/scoreboard.git
+   cd scoreboard
    ```
 
 2. **Configura el Entorno**

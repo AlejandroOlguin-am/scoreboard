@@ -1,11 +1,3 @@
-"""
-Robotics Competition Scoring System - Main Application
-Developed for FIRST Global Challenge 2024
-
-Author: [Your Name]
-Date: 2024
-"""
-
 import cv2
 import numpy as np
 import time

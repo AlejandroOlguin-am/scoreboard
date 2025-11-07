@@ -1,5 +1,5 @@
 /*
- * Robotics Competition Scoreboard Controller
+ * Scoreboard Controller
  * Microcontroller: PIC18F4550
  * Clock: 20 MHz Crystal
  * UART: 9600 baud

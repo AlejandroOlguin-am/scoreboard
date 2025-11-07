@@ -1,4 +1,4 @@
-# Python Dependencies for Robotics Scoring System
+# Python Dependencies for scoreboard
 
 # Core Computer Vision
 opencv-python>=4.8.0

@@ -201,9 +201,9 @@ class MatchTimer:
 
 ## 🖥️ GUI Module (`gui/`)
 
-#### `RoboticsScoreSystem` (main.py)
+#### `ScoreSystem` (main.py)
 ```python
-class RoboticsScoreSystem:
+class ScoreSystem:
     """Aplicación principal del sistema."""
     
     def __init__(self, simulate: bool = False, record: bool = False):
@@ -260,9 +260,9 @@ serial.send_scores(
 
 ### Modo Simulación
 ```python
-from main import RoboticsScoreSystem
+from main import ScoreSystem
 
-app = RoboticsScoreSystem(simulate=True)
+app = ScoreSystem(simulate=True)
 app.run()
 ```
 
@@ -334,7 +334,7 @@ Ver `config.py` para opciones configurables:
 
 1. Inicialización:
    ```python
-   app = RoboticsScoreSystem()
+   app = ScoreSystem()
    ```
 
 2. Conexión Hardware:
