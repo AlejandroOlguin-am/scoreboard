@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project Specific
+data/recordings/*.avi
+data/recordings/*.mp4
+logs/*.log
+*.tmp
+
+# Calibration (keep templates, ignore user calibrations)
+data/calibration/*_user.yaml
+
+# Compiled firmware
+firmware/*.hex
+firmware/*.cof
+firmware/*.map
+firmware/*.lst
+firmware/*.obj
+firmware/*.o
+firmware/*.d
+firmware/*.p1
+firmware/*.pre
+firmware/*.sym
+firmware/*.cmf
+firmware/*.hxl
+firmware/build/
+firmware/dist/
+firmware/.generated_files/
+
+# MPLAB IDE
+firmware/*.mcp
+firmware/*.mcw
+firmware/*.mcs
+firmware/*.workspace
+firmware/*.component
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
