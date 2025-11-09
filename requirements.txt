@@ -1,24 +1,9 @@
-# Python Dependencies for scoreboard
+# Dependencias necesarias para la detección de visión, rastreo y GUI.
+# Se usa opencv-contrib-python porque usaste cv2.bgsegm.createBackgroundSubtractorMOG()
+opencv-contrib-python>=4.8
+numpy>=1.23
+pyserial>=3.5  # Necesario para la versión serial, aunque no se use en la GUI.
 
-# Core Computer Vision
-opencv-python>=4.8.0
-opencv-contrib-python>=4.8.0
-numpy>=1.24.0
-
-# Serial Communication
-pyserial>=3.5
-
-# GUI
-tk>=0.1.0
-
-# Testing (optional)
-pytest>=7.4.0
-pytest-cov>=4.1.0
-
-# Code Quality (optional)
-pylint>=2.17.0
-black>=23.7.0
-
-# Documentation (optional)
-sphinx>=7.1.0
-sphinx-rtd-theme>=1.3.0
+# Dependencias estándar de Python que no necesitan listarse:
+# tkinter (incluido con Python 3)
+# threading, time, math (módulos built-in)
